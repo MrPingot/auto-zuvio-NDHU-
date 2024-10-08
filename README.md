@@ -22,7 +22,7 @@ python main.py
 如果需要更改帳密的話，請至 config.ini 修改
 
 ## 該如何24/7的自動點名
-1.到[Free server教學文檔學習使用](https://docs.freeserver.tw/start/start)
+1.到[Free server教學文檔學習使用](https://docs.freeserver.tw/start/start)/n
 2.選擇創建伺服器![image](https://github.com/user-attachments/assets/ecee1bbe-25b6-4ace-849e-f1ffe44e59c9)
 3.建議配置如下![image](https://github.com/user-attachments/assets/545ae48f-e485-4c28-bd60-8342999750f8)
 4.確認後到主頁面按"點我編輯/延長"![image](https://github.com/user-attachments/assets/1d28acea-887e-4ca1-813d-469c837cfc46)
