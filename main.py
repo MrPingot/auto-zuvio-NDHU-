@@ -28,7 +28,7 @@ def main():
     account = config['user']['account']
     password = config['user']['password']
     data = {
-        'email': account + "@nkust.edu.tw",
+        'email': account + "@gms.ndhu.edu.tw",
         'password': password,
         'current_language': "zh-TW"
     }
@@ -57,7 +57,7 @@ def courses(user_id, accessToken):
     response = session.get(url)
     course_json = json.loads(response.content)
     if 'location' not in config.sections():
-        print("看來你還沒有經緯度資訊，預設的經緯度會在楠梓校區的大仁樓")
+        print("看來你還沒有經緯度資訊，預設的經緯度會在東華大學理工二館")
         config['location'] = {}
         config['location']['lng'] = input('請輸入經度：')
         config['location']['lat'] = input('請輸入緯度：')
@@ -97,9 +97,9 @@ def check(course_ID):
 
 def checkIn(user_id, accessToken, rollcall_id):
     url = "https://irs.zuvio.com.tw/app_v2/makeRollcall"
-    # 預設經緯度為楠梓校區大仁樓
-    lat = "22.725946571118374"
-    lng = "120.31566086504968"
+    # 預設經緯度為東華大學理工二館
+    lat = "23.899"
+    lng = "121.545"
     if 'location' in config.sections() and config['location']['lng'] is not None and config['location']['lat'] is not None:
         lng = config['location']['lng']
         lat = config['location']['lat']
