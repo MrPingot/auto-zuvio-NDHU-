@@ -63,6 +63,8 @@ python main.py
 ![image](https://github.com/user-attachments/assets/9ca556a8-a5fc-4de9-a7ae-b0446d2bb9f7)
 
 14.輸入學號(不用@gms那串) 學校信箱密碼 你上課地點的經緯度(預設為理工二館)
+註:有時候會跳不出"請輸入學號 請輸入密碼"那些字
+直接照順序輸入即可:學號->密碼->經度->緯度
 
 15.確認無誤即可
 
